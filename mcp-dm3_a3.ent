@@ -1,0 +1,448 @@
+{
+"classname" "worldspawn"
+"light" "50"
+"message" "mcp-dm3_b1 - the stolen base\nzut 2021\nfortressone.org\n"
+"wad" "D:/QuakeDev/wads/zutwad/trophy2/grey1.wad;D:/QuakeDev/wads/zutwad/trophy2/black1.wad;D:/QuakeDev/wads/zutwad/trophy2/cappoints.wad;D:/QuakeDev/wads/zutwad/trophy2/skygreen.wad;D:/QuakeDev/wads/zutwad/trophy2/trophyid.wad;D:/QuakeDev/wads/zutwad/trophy2/rock1.wad;D:/QuakeDev/wads/zutwad/trophy2/diamond.wad;D:/QuakeDev/wads/zutwad/trophy2/noise.wad;D:/QuakeDev/wads/zutwad/trophy2/water1.wad;D:/QuakeDev/wads/zutwad/trophy2/grey3.wad;D:/QuakeDev/wads/zutwad/trophy2/crates.wad;D:/QuakeDev/wads/zutwad/trophy2/brights.wad"
+}
+{
+"classname" "func_plat"
+"height" "320"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"height" "272"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"height" "160"
+"model" "*3"
+}
+{
+"classname" "info_mcpflag_capture"
+"origin" "688 -256 72"
+"team_no" "1"
+}
+{
+"_tb_group" "185"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "1088 -1296 152"
+"team_no" "1"
+}
+{
+"_tb_group" "185"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "96 -1424 216"
+"team_no" "1"
+}
+{
+"_tb_group" "185"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "1328 -1104 248"
+"team_no" "1"
+}
+{
+"_tb_group" "185"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "528 -864 72"
+"team_no" "1"
+}
+{
+"_tb_group" "185"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "-200 -816 312"
+"team_no" "1"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "688 128 88"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "688 200 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "688 -640 88"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1232 -256 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1232 -880 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1088 -1120 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1696 128 -40"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1216 -1120 -56"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1088 -1472 184"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "48 -256 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "48 -912 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-80 -1552 264"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1112 -872 -40"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1160 -264 88"
+}
+{
+"_tb_group" "186"
+"classname" "light"
+"light" "200"
+"origin" "688 -1904 112"
+}
+{
+"_tb_group" "186"
+"angle" "0"
+"classname" "info_mcpflag_spawn"
+"light" "150"
+"origin" "688 -1904 72"
+"wait" "2"
+}
+{
+"_tb_group" "186"
+"angle" "180"
+"classname" "info_intermission"
+"origin" "688 -1904 152"
+}
+{
+"_tb_group" "186"
+"angle" "180"
+"classname" "info_null"
+"origin" "688 -1904 168"
+"targetname" "suntar"
+}
+{
+"_sun" "1"
+"_tb_group" "186"
+"classname" "light"
+"light" "200"
+"origin" "688 -1904 184"
+"target" "suntar"
+}
+{
+"_tb_group" "186"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "736 -1536 200"
+}
+{
+"angle" "180"
+"classname" "info_mcp_classinfo"
+"origin" "944 -1600 -72"
+"team_no" "5"
+}
+{
+"angle" "180"
+"classname" "info_mcp_classinfo"
+"origin" "944 -1536 -72"
+"team_no" "4"
+}
+{
+"angle" "180"
+"classname" "info_mcp_classinfo"
+"origin" "944 -1472 -72"
+"team_no" "3"
+}
+{
+"angle" "180"
+"classname" "info_mcp_classinfo"
+"origin" "944 -1408 -72"
+"team_no" "2"
+}
+{
+"angle" "180"
+"classname" "info_mcp_classinfo"
+"origin" "944 -1344 -72"
+"team_no" "1"
+}
+{
+"angle" "180"
+"classname" "info_mcpflag_capture"
+"origin" "688 -3552 72"
+"team_no" "2"
+}
+{
+"_tb_group" "187"
+"classname" "func_plat"
+"height" "320"
+"model" "*4"
+}
+{
+"_tb_group" "187"
+"classname" "func_plat"
+"height" "272"
+"model" "*5"
+}
+{
+"_tb_group" "187"
+"classname" "func_plat"
+"height" "160"
+"model" "*6"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "688 -3936 88"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "688 -4008 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "688 -3168 88"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "144 -3552 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "144 -2928 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "288 -2688 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "-320 -3936 -40"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "160 -2688 -56"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "288 -2336 184"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "1328 -3552 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "1328 -2896 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "1456 -2256 264"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "264 -2936 -40"
+}
+{
+"_tb_group" "187"
+"angle" "180"
+"classname" "light"
+"light" "200"
+"origin" "216 -3544 88"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcp_classinfo"
+"origin" "432 -2208 -72"
+"team_no" "5"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcp_classinfo"
+"origin" "432 -2272 -72"
+"team_no" "4"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcp_classinfo"
+"origin" "432 -2336 -72"
+"team_no" "3"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcp_classinfo"
+"origin" "432 -2400 -72"
+"team_no" "2"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcp_classinfo"
+"origin" "432 -2464 -72"
+"team_no" "1"
+}
+{
+"_tb_group" "187"
+"angle" "0"
+"classname" "info_mcpflag_capture"
+"origin" "688 -256 72"
+"team_no" "1"
+}
+{
+"_tb_group" "188"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "1088 -1296 152"
+"team_no" "1"
+}
+{
+"_tb_group" "188"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "96 -1424 216"
+"team_no" "1"
+}
+{
+"_tb_group" "188"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "1328 -1104 248"
+"team_no" "1"
+}
+{
+"_tb_group" "188"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "528 -864 72"
+"team_no" "1"
+}
+{
+"_tb_group" "188"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "-200 -816 312"
+"team_no" "1"
+}
+{
+"_tb_group" "189"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "288 -2512 152"
+"team_no" "2"
+}
+{
+"_tb_group" "189"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "1280 -2384 216"
+"team_no" "2"
+}
+{
+"_tb_group" "189"
+"angle" "0"
+"classname" "info_player_teamspawn"
+"origin" "48 -2704 248"
+"team_no" "2"
+}
+{
+"_tb_group" "189"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "848 -2944 72"
+"team_no" "2"
+}
+{
+"_tb_group" "189"
+"angle" "180"
+"classname" "info_player_teamspawn"
+"origin" "1576 -2992 312"
+"team_no" "2"
+}
+{
+"classname" "info_mcp_flagspawn"
+"origin" "688 -1904 100"
+}
+{
+"classname" "info_mcp_bluecapture"
+"origin" "688 -256 100"
+}
+{
+"classname" "info_mcp_redcapture"
+"origin" "688 -3552 100"
+}

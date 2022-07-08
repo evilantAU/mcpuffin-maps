@@ -1,0 +1,284 @@
+{
+"classname" "worldspawn"
+"message" "mcp-castle_a2.bsp\nzut 2021\nfortressone.org\n"
+"wad" "D:/QuakeDev/wads/prototype_1_1.wad;D:/QuakeDev/wads/id.wad"
+}
+{
+"classname" "light"
+"origin" "320 336 456"
+}
+{
+"classname" "light"
+"origin" "1208 336 456"
+}
+{
+"classname" "light"
+"origin" "1208 896 456"
+}
+{
+"classname" "light"
+"origin" "-192 336 456"
+}
+{
+"classname" "light"
+"origin" "-192 336 32"
+}
+{
+"classname" "light"
+"origin" "320 336 32"
+}
+{
+"classname" "light"
+"origin" "808 488 32"
+}
+{
+"classname" "light"
+"origin" "-192 840 -16"
+}
+{
+"_tb_group" "61"
+"classname" "light"
+"origin" "744 1664 -56"
+}
+{
+"_tb_group" "61"
+"classname" "light"
+"origin" "256 1664 -56"
+}
+{
+"_tb_group" "61"
+"classname" "light"
+"origin" "-224 1664 -56"
+}
+{
+"_tb_group" "62"
+"classname" "trigger_hurt"
+"delay" "0"
+"dmg" "9999"
+"model" "*1"
+"style" "32"
+}
+{
+"classname" "light"
+"origin" "256 1664 372"
+}
+{
+"_tb_group" "63"
+"classname" "trigger_hurt"
+"delay" "0"
+"dmg" "9999"
+"model" "*2"
+"style" "32"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "192 2992 456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-696 2992 456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-696 2432 456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "704 2992 456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "704 2992 32"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "192 2992 32"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "704 2488 -16"
+}
+{
+"_tb_group" "65"
+"angle" "180"
+"classname" "light"
+"origin" "-232 1664 -56"
+}
+{
+"_tb_group" "65"
+"angle" "180"
+"classname" "light"
+"origin" "256 1664 -56"
+}
+{
+"_tb_group" "65"
+"angle" "180"
+"classname" "light"
+"origin" "736 1664 -56"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "256 1664 372"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-296 2840 32"
+}
+{
+"classname" "info_mcpflag_capture"
+"origin" "832 -448 176"
+"team_no" "1"
+}
+{
+"angle" "180"
+"classname" "info_mcpflag_capture"
+"origin" "-320 3776 176"
+"team_no" "2"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "304 776 200"
+"team_no" "1"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "32 200 328"
+"team_no" "1"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "1152 248 328"
+"team_no" "1"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "472 304 888"
+"team_no" "1"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "128 304 888"
+"team_no" "1"
+}
+{
+"_tb_group" "66"
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "-192 304 888"
+"team_no" "1"
+}
+{
+"_tb_group" "67"
+"angle" "180"
+"classname" "info_player_start"
+"origin" "304 1664 624"
+}
+{
+"_sun" "1"
+"_tb_group" "67"
+"classname" "light"
+"light" "200"
+"origin" "256 1664 424"
+"target" "suntar"
+}
+{
+"_tb_group" "67"
+"angle" "180"
+"classname" "info_null"
+"origin" "256 1664 408"
+"targetname" "suntar"
+}
+{
+"_tb_group" "67"
+"angle" "180"
+"classname" "info_intermission"
+"origin" "256 1664 392"
+}
+{
+"_tb_group" "67"
+"angle" "0"
+"classname" "light"
+"light" "200"
+"origin" "256 1664 352"
+}
+{
+"_tb_group" "67"
+"angle" "0"
+"classname" "info_mcpflag_spawn"
+"light" "150"
+"origin" "256 1664 312"
+"wait" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "208 2552 200"
+"team_no" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "480 3128 328"
+"team_no" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "-640 3080 328"
+"team_no" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "704 3024 888"
+"team_no" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "384 3024 888"
+"team_no" "2"
+}
+{
+"_tb_group" "68"
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "40 3024 888"
+"team_no" "2"
+}
+{
+"classname" "info_mcp_flagspawn"
+"origin" "256 1664 312"
+}
+{
+"classname" "info_mcp_bluecapture"
+"origin" "832 -448 176"
+}
+{
+"classname" "info_mcp_redcapture"
+"origin" "-320 3776 176"
+}

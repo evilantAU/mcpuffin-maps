@@ -1,0 +1,303 @@
+{
+"_minlight_color" "254 254 128"
+"_sun_mangle" "43 -60 0"
+"_sunlight" "200"
+"_sunlight_color" "254 254 128"
+"classname" "worldspawn"
+"light" "35"
+"message" " DUST - by dp\n for Mercury's OZTF mod\n originally by DaveJ\n textures by Macman\n"
+"sounds" "1"
+"wad" "\kris\mapcrapóð²Üóèîâ²®÷áä»ÜñõáëåÜéä±ÜíáðóÜñ÷ßäõóô®÷áä"
+"worldtype" "2"
+}
+{
+"classname" "func_wall"
+"model" "*1"
+}
+{
+"classname" "func_illusionary"
+"model" "*2"
+}
+{
+"classname" "func_illusionary"
+"model" "*3"
+}
+{
+"classname" "func_illusionary"
+"model" "*4"
+}
+{
+"angle" "225"
+"classname" "info_player_start"
+"origin" "2320 912 1216"
+}
+{
+"classname" "func_illusionary"
+"model" "*5"
+"rendercolor" "0 0 0"
+"skin" "-1"
+"zhlt_lightflags" "3"
+}
+{
+"classname" "func_illusionary"
+"model" "*6"
+"rendercolor" "0 0 0"
+"skin" "-1"
+"zhlt_lightflags" "3"
+}
+{
+"classname" "func_illusionary"
+"model" "*7"
+}
+{
+"classname" "func_illusionary"
+"model" "*8"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "640 1340 1232"
+}
+{
+"classname" "func_illusionary"
+"model" "*9"
+}
+{
+"classname" "func_illusionary"
+"model" "*10"
+}
+{
+"classname" "func_illusionary"
+"model" "*11"
+}
+{
+"classname" "func_illusionary"
+"model" "*12"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-32 1156 1232"
+}
+{
+"classname" "func_illusionary"
+"model" "*13"
+}
+{
+"classname" "func_illusionary"
+"model" "*14"
+}
+{
+"classname" "func_illusionary"
+"model" "*15"
+}
+{
+"classname" "func_illusionary"
+"model" "*16"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-124 1824 1232"
+}
+{
+"classname" "func_illusionary"
+"model" "*17"
+}
+{
+"classname" "func_illusionary"
+"model" "*18"
+}
+{
+"classname" "func_illusionary"
+"model" "*19"
+}
+{
+"classname" "func_illusionary"
+"model" "*20"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-508 1348 1232"
+}
+{
+"classname" "func_illusionary"
+"model" "*21"
+}
+{
+"classname" "func_illusionary"
+"model" "*22"
+}
+{
+"classname" "func_illusionary"
+"model" "*23"
+}
+{
+"classname" "func_illusionary"
+"model" "*24"
+}
+{
+"classname" "func_illusionary"
+"model" "*25"
+}
+{
+"classname" "func_illusionary"
+"model" "*26"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-900 1792 1008"
+}
+{
+"classname" "func_illusionary"
+"model" "*27"
+}
+{
+"classname" "func_illusionary"
+"model" "*28"
+}
+{
+"classname" "func_illusionary"
+"model" "*29"
+}
+{
+"classname" "func_illusionary"
+"model" "*30"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-900 2048 1008"
+}
+{
+"classname" "func_wall"
+"model" "*31"
+}
+{
+"classname" "info_tfdetect"
+"message" "allow_skybox 0\n"
+"origin" "1696 2880 1040"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-1808 3072 1184"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-1220 592 960"
+}
+{
+"_color" "224 224 224"
+"classname" "light"
+"light" "150"
+"origin" "-1220 688 960"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"message" "\n\nFuhQuake\n"
+"origin" "-2400 2560 1184"
+"target" "msg2"
+"wait" "10"
+}
+{
+"classname" "info_tfgoal"
+"delay_time" "2"
+"message" "\n\n24bit textures, underwater effects,\n skyboxes\n"
+"origin" "-2400 2544 1184"
+"target" "msg3"
+"targetname" "msg2"
+}
+{
+"classname" "info_tfgoal"
+"delay_time" "2"
+"message" "\n\nmodel interpolation, qmb particle system,\n winamp support\n"
+"origin" "-2400 2528 1184"
+"target" "msg4"
+"targetname" "msg3"
+}
+{
+"classname" "info_tfgoal"
+"delay_time" "2"
+"message" "\n\nplus improved teamplay\n and console features\n"
+"origin" "-2400 2512 1184"
+"target" "msg5"
+"targetname" "msg4"
+}
+{
+"classname" "info_tfgoal"
+"delay_time" "2"
+"message" "\n\nwww.fuhquake.net\n"
+"origin" "-2400 2496 1184"
+"targetname" "msg5"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-656 -1680 1192"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-384 -736 1128"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "640 -96 1128"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "-576 240 1128"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "944 816 1128"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "2272 1216 1144"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "-1200 1488 1128"
+}
+{
+"angle" "0"
+"classname" "info_player_deathmatch"
+"origin" "-2016 2832 1160"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "-624 3664 1144"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "1488 2992 1000"
+}
+{
+"angle" "270"
+"classname" "info_player_deathmatch"
+"origin" "96 3744 1176"
+}
+{
+"angle" "0"
+"classname" "info_player_deathmatch"
+"origin" "-80 1824 1160"
+}

@@ -1,0 +1,852 @@
+{
+"_bounce" "1"
+"_dirt" "1"
+"_dirtscale" "1.4"
+"_sun_mangle" "0 -90 0"
+"_sunlight" "35"
+"_sunlight2" "35"
+"classname" "worldspawn"
+"has_holo" "1"
+"message" "phloctf1\nUpdated for MegaTF Classics"
+"wad" "C:/Quake/Tools/TrenchBroom/games/Quake/wad files/phloctf1.wad;C:/Quake/Tools/TrenchBroom/games/Quake/wad files/liquidz_v2.wad;C:/Quake/Tools/TrenchBroom/games/Quake/wad files/quake.wad;C:/Quake/Tools/TrenchBroom/games/Quake/wad files/skies2.wad;C:/Quake/Tools/TrenchBroom/games/Quake/wad files/kp_full.wad"
+}
+{
+"_color" "255 0 0"
+"_surface" "IRONCROSSLTRED"
+"classname" "light"
+"delay" "5"
+"light" "700"
+"origin" "8 -592 120"
+"wait" "6"
+}
+{
+"_color" "0 0 255"
+"_surface" "IRONCROSSLTBLUE"
+"classname" "light"
+"delay" "5"
+"light" "700"
+"origin" "-72 -592 120"
+"wait" "6"
+}
+{
+"angle" "90"
+"b_o" "Your flag was taken!\n"
+"b_t" "Your team got their flag!\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag!\n"
+"d_n_n" " äòïððåä âìõå§ó æìáç¡\n"
+"d_n_t" " äòïððåä âìõå§ó æìáç¡\n"
+"d_t" "The enemy lost your flag!\n"
+"delay" "20"
+"g_a" "4789"
+"goal_effects" "1"
+"goal_no" "1"
+"goal_result" "16"
+"items" "131072"
+"mdl" "progs/tf_stan.mdl"
+"message" "You have their flag!\nBring it home!!\n"
+"n_b" " çïô âìõå§ó æìáç¡\n"
+"netname" "Blue Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned!\n"
+"noise4" "Their flag returned!\n"
+"origin" "-2448 288 -280"
+"owned_by" "1"
+"pausetime" "20"
+"skin" "1"
+"team_no" "2"
+}
+{
+"axhitme" "2"
+"b_o" "Your flag was captured!\n"
+"b_t" "Your team captured their flag!\n"
+"classname" "i_t_g"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"goal_result" "2"
+"increase_team1" "10"
+"items_allowed" "2"
+"message" "You ÃÁÐÔÕÒÅÄ the ÅÎÅÍÙ flag!\n"
+"n_b" " ãáðôõòåä òåä§ó æìáç¡\n"
+"netname" "blue cap"
+"noise" "boss2/pop2.wav"
+"origin" "-1440 736 -344"
+"owned_by" "2"
+"target" "blue cap resup"
+}
+{
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "0.8"
+"armorvalue" "200"
+"classname" "i_t_g"
+"g_e" "1"
+"health" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-1440 736 -312"
+"targetname" "blue cap resup"
+}
+{
+"angle" "180"
+"b_o" "Your flag was taken!\n"
+"b_t" "Your team got their flag!\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag!\n"
+"d_n_n" " äòïððåä òåä§ó æìáç¡\n"
+"d_n_t" " äòïððåä òåä§ó æìáç¡\n"
+"d_t" "The enemy lost your flag!\n"
+"delay" "20"
+"g_a" "4789"
+"goal_effects" "1"
+"goal_no" "2"
+"goal_result" "16"
+"items" "262144"
+"mdl" "progs/tf_stan.mdl"
+"message" "You have their flag!\nBring it home!!\n"
+"n_b" " çïô òåä§ó æìáç¡\n"
+"netname" "Red Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned!\n"
+"noise4" "Their flag returned!\n"
+"origin" "2448 -256 -280"
+"owned_by" "2"
+"pausetime" "20"
+"skin" "2"
+"team_no" "1"
+}
+{
+"axhitme" "1"
+"b_o" "Your flag was captured!\n"
+"b_t" "Your team captured their flag!\n"
+"classname" "i_t_g"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"goal_result" "2"
+"increase_team2" "10"
+"items_allowed" "1"
+"message" "You ÃÁÐÔÕÒÅÄ the ÅÎÅÍÙ flag!\n"
+"n_b" " ãáðôõòåä âìõå§ó æìáç¡\n"
+"netname" "red cap"
+"noise" "boss2/pop2.wav"
+"origin" "1440 -704 -344"
+"owned_by" "1"
+"target" "red cap resup"
+}
+{
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "0.8"
+"armorvalue" "200"
+"classname" "i_t_g"
+"g_e" "1"
+"health" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "1440 -704 -312"
+"targetname" "red cap resup"
+}
+{
+"_color" "0 170 0"
+"_surface" "*slimerot2"
+"classname" "light"
+"delay" "0"
+"light" "120"
+"origin" "-72 -592 72"
+}
+{
+"_color" "255 0 0"
+"_surface" "*lava_rorshach"
+"classname" "light"
+"delay" "0"
+"light" "120"
+"origin" "8 -592 72"
+}
+{
+"_color" "255 255 0"
+"_surface" "klight"
+"classname" "light"
+"delay" "5"
+"light" "150"
+"origin" "-32 -592 32"
+"wait" "2.5"
+}
+{
+"_color" "0 170 0"
+"_surface" "w_sy_v3"
+"classname" "light"
+"delay" "5"
+"light" "400"
+"origin" "-32 -592 -16"
+"wait" "3"
+}
+{
+"_color" "255 255 0"
+"_surface" "li_pv_v7"
+"classname" "light"
+"delay" "5"
+"light" "400"
+"origin" "-32 -592 -48"
+"wait" "3"
+}
+{
+"_color" "0 0 255"
+"_surface" "jumppadsmall_b"
+"classname" "light"
+"delay" "5"
+"light" "120"
+"origin" "-72 -592 24"
+"wait" "4.5"
+}
+{
+"_color" "255 0 0"
+"_surface" "jumppadsmall_r"
+"classname" "light"
+"delay" "5"
+"light" "120"
+"origin" "8 -592 24"
+"wait" "4.5"
+}
+{
+"_color" "255 100 0"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "996 212 16"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "1072 -1124 -72"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "2120 548 -96"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "1140 816 20"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "-1072 1156 -72"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "-1140 -784 20"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "-996 -180 16"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "-2120 -516 -100"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "-644 870 40"
+"wait" "1"
+}
+{
+"_color" "255 100 0"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "200"
+"origin" "644 -838 48"
+"wait" "1"
+}
+{
+"_color" "255 255 164"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-2280 584 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-1640 552 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-1640 200 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "1640 -168 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "1640 -520 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "2280 -552 -272"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "952 56 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-952 -24 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "840 -616 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-840 648 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "250"
+"origin" "8 24 232"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "250"
+"origin" "8 24 120"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "250"
+"origin" "8 24 -8"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "70"
+"origin" "-152 152 -248"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "70"
+"origin" "136 -120 -248"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "70"
+"origin" "40 416 -248"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "70"
+"origin" "-40 -384 -248"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "150"
+"origin" "-168 -152 184"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "150"
+"origin" "168 184 184"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "-1448 -344 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "100"
+"origin" "1448 376 -224"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "712 -648 0"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "680 -1000 -64"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "0"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "-680 1032 -64"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "0"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "-712 680 0"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "504 392 8"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "180"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "344 584 8"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "0"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "-344 -552 8"
+"wait" "0.75"
+}
+{
+"_color" "255 255 164"
+"angle" "0"
+"classname" "light"
+"delay" "5"
+"light" "50"
+"origin" "-504 -360 8"
+"wait" "0.75"
+}
+{
+"classname" "ambient_eerie"
+"origin" "8 24 56"
+}
+{
+"classname" "ambient_high_wind"
+"origin" "2448 -256 360"
+}
+{
+"classname" "ambient_high_wind"
+"origin" "-2448 288 360"
+}
+{
+"_tb_layer" "1"
+"angles" "0 0 0"
+"classname" "info_player_teamspawn"
+"origin" "-2344 -72 -264"
+"team_no" "1"
+}
+{
+"_tb_layer" "1"
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "weapons/pkup.wav"
+"origin" "-2152 -56 -264"
+"team_no" "1"
+"wait" "1"
+}
+{
+"_tb_layer" "1"
+"angles" "0 90 0"
+"classname" "info_player_start"
+"origin" "-32 -592 168"
+}
+{
+"_tb_layer" "1"
+"angles" "0 -180 0"
+"classname" "info_player_teamspawn"
+"origin" "2344 104 -264"
+"team_no" "2"
+}
+{
+"_tb_layer" "1"
+"angle" "90"
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"hook_out" "1"
+"non_team_broadcast" "Get the enemy flag and take it to your base!\n"
+"non_team_str_carried" "The ÅÎÅÍÙ flag is being carried by\n"
+"non_team_str_home" "The ÅÎÅÍÙ flag is in their base.\n"
+"non_team_str_moved" "The ÅÎÅÍÙ flag is lying around."
+"origin" "-32 -592 232"
+"team_str_carried" "Your flag is being carried by\n"
+"team_str_home" "Your flag is in your base.\n"
+"team_str_moved" "Your flag is lying around."
+}
+{
+"_tb_layer" "1"
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"angle" "270"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "weapons/pkup.wav"
+"origin" "2152 88 -264"
+"team_no" "2"
+"wait" "1"
+}
+{
+"_tb_layer" "1"
+"angles" "0 -180 0"
+"classname" "info_player_teamspawn"
+"origin" "2344 168 -264"
+"team_no" "2"
+}
+{
+"_tb_layer" "1"
+"angles" "0 -180 0"
+"classname" "info_player_teamspawn"
+"origin" "2280 104 -264"
+"team_no" "2"
+}
+{
+"_tb_layer" "1"
+"angles" "0 -180 0"
+"classname" "info_player_teamspawn"
+"origin" "2280 168 -264"
+"team_no" "2"
+}
+{
+"_tb_layer" "1"
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"angle" "270"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "weapons/pkup.wav"
+"origin" "2200 88 -264"
+"team_no" "2"
+"wait" "1"
+}
+{
+"_tb_layer" "1"
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "weapons/pkup.wav"
+"origin" "-2200 -56 -264"
+"team_no" "1"
+"wait" "1"
+}
+{
+"_tb_layer" "1"
+"angles" "0 0 0"
+"classname" "info_player_teamspawn"
+"origin" "-2280 -72 -264"
+"team_no" "1"
+}
+{
+"_tb_layer" "1"
+"angles" "0 0 0"
+"classname" "info_player_teamspawn"
+"origin" "-2280 -136 -264"
+"team_no" "1"
+}
+{
+"_tb_layer" "1"
+"angles" "0 0 0"
+"classname" "info_player_teamspawn"
+"origin" "-2344 -136 -264"
+"team_no" "1"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"angle" "180"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "-1072 1176 -68"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"angle" "180"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "-664 870 44"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"angle" "180"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "-2132 -536 -92"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"angle" "180"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "-972 -196 24"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"angle" "180"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "-1156 -804 24"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "1072 -1144 -68"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "972 228 24"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "1156 836 24"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "664 -838 52"
+"wait" "2.8"
+}
+{
+"_color" "255 100 0"
+"_tb_layer" "5"
+"classname" "light_flame_small_yellow"
+"delay" "5"
+"origin" "2132 568 -92"
+"wait" "2.8"
+}
+{
+"_tb_layer" "6"
+"angles" "265 90 0"
+"classname" "trigger_push"
+"model" "*1"
+"speed" "76"
+}
+{
+"_tb_layer" "6"
+"angles" "275 90 0"
+"classname" "trigger_push"
+"model" "*2"
+"speed" "76"
+}
+{
+"classname" "info_mcp_flagspawn"
+"origin" "0 0 0"
+}
+{
+"classname" "info_mcp_redcapture"
+"origin" "2448 -256 -280"
+}
+{
+"classname" "info_mcp_bluecapture"
+"origin" "-2448 288 -280"
+}
