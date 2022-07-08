@@ -1,2 +1,2 @@
 # mcpuffin-maps
-maps used in mcpuffin
+maps and ents used in mcpuffin
